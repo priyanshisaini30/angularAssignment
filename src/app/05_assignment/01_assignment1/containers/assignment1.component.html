@@ -10,7 +10,7 @@
   <div class="container your-code">
     <br>
     <label>press enter after passing value in textbox</label><br>
-    <input type="text"  #box (keyup.enter)="onEnter(box.value)"> 
+    <input type="text"  #box (input)="onEnter(box.value)"> 
     <p>{{value}}</p>
   </div>
 </div>
